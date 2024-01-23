@@ -144,9 +144,3 @@ criptografa.addEventListener("click", criptografar);
 descriptografa.addEventListener("click", descriptografar);
 btnCopiar.addEventListener("click", copiar);
 
-texto.addEventListener("keypress", (evento) => {
-  if (!checarCaracter(evento)) {
-    /* evento.preventDefault() = comportamento padrao n vai ser executado se for caracter especial n vai aparecer no imput */
-    evento.preventDefault();
-  }
-});
